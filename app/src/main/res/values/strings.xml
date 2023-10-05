@@ -1,11 +1,29 @@
 <resources>
     <string name="app_name">Mortgage Calculator</string>
+
+    <!-- Main Activity Strings-->
     <string name="mortgage_calculator">Mortgage Calculator</string>
     <string name="mortgage_principal_amount">Mortgage principal amount</string>
     <string name="select_term">Select a term</string>
     <string name="calculate">Calculate</string>
     <string name="enter_your_interest_rate">Enter your interest rate</string>
     <string name="interest_rate">Interest Rate</string>
+    <string name="enter_amortization_period">Enter amortization period</string>
+
+    <!-- Main Activity Errors -->
+    <string name="error_principal_amount">Please enter a mortgage amount that is greater than $20,000.00 and less than $9,000,000.00.</string>
+    <string name="error_term">Please select a term from the dropdown</string>
+    <string name="error_interest_rate">The interest rate must be between 0% and 30%.</string>
+    <string name="error_amortization">Please enter an amortization between 1 and 25 years</string>
+
+    <!-- Result Activity Strings -->
+    <string name="my_results">My Payment Results</string>
+    <string name="results">%.2f / Monthly</string>
+    <string name="balance_after_term">Balance after term</string>
+    <string name="total_payments_over_term">Total payments over term</string>
+    <string name="interest_paid">Interest paid</string>
+    <string name="principal_paid">Principal paid</string>
+    <string name="leftover_balance">Leftover balance</string>
 
     <string-array name="term_lengths">
         <item>Select a term</item>
