@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">Assignment1</string>
+    <string name="app_name">Mortgage Calculator</string>
+    <string name="mortgage_calculator">Mortgage Calculator</string>
+    <string name="mortgage_principal_amount">Mortgage principal amount</string>
+    <string name="select_term">Select a term</string>
+    <string name="calculate">Calculate</string>
+    <string name="enter_your_interest_rate">Enter your interest rate</string>
+    <string name="interest_rate">Interest Rate</string>
+
+    <string-array name="term_lengths">
+        <item>Select a term</item>
+        <item>1 Year Closed</item>
+        <item>2 Year Closed</item>
+        <item>3 Year Closed</item>
+        <item>4 Year Closed</item>
+        <item>5 Year Closed</item>
+        <item>6 Year Closed</item>
+        <item>7 Year Closed</item>
+        <item>10 Year Closed</item>
+    </string-array>
 </resources>
